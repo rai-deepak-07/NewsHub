@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import MainLayout from "../components/layout/MainLayout/MainLayout";
 
@@ -15,7 +15,7 @@ import ScrollToTop from "../components/common/ScrollToTop";
 
 const AppRoutes = () => {
   return (
-    <BrowserRouter>
+    <>
       <ScrollToTop />
       <Routes>
         <Route element={<MainLayout />}>
@@ -29,7 +29,7 @@ const AppRoutes = () => {
 
         <Route path="*" element={<NotFound />} />
       </Routes>
-    </BrowserRouter>
+    </>
   );
 };
 
