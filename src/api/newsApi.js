@@ -2,7 +2,7 @@ import api from "./axios";
 
 const API_KEYS = [
   import.meta.env.VITE_NEWS_API_KEY,
-  // import.meta.env.VITE_NEWS_API_KEY_2,
+  import.meta.env.VITE_NEWS_API_KEY_2,
 ];
 
 export const getNews = async ({
