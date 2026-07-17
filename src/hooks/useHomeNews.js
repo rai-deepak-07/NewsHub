@@ -19,7 +19,7 @@ const useHomeNews = () => {
 
     trending: articles.slice(6, 12),
 
-    latest: articles.slice(12),
+    latest: articles.length > 12? articles.slice(12): articles
   };
 };
 
