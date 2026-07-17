@@ -8,9 +8,9 @@ import "./styles/index.css";
 import { FilterProvider } from "./context/FilterContext";
 import { BookmarkProvider } from "./context/BookmarkContext";
 import { UIProvider } from "./context/UIContext";
-import { registerSW } from "virtual:pwa-register";
+// import { registerSW } from "virtual:pwa-register";
 
-registerSW({ immediate: true });
+// registerSW({ immediate: true });
 
 const queryClient = new QueryClient({
   defaultOptions: {
