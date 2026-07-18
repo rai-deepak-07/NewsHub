@@ -10,8 +10,7 @@ import EmptyState from "../../common/EmptyState/EmptyState";
 import { NewsGridSkeleton } from "../../common/Skeleton/Skeleton";
 
 const LatestSection = ({ newsQuery, articles = [] }) => {
-  const { fetchNextPage, hasNextPage, isLoading, isError, refetch } =
-    newsQuery;
+  const { fetchNextPage, hasNextPage, isLoading, isError, refetch } = newsQuery;
 
   return (
     <section>
